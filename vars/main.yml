@@ -6,7 +6,7 @@ config_gpu_mem: 16
 config_max_usb_current: 1
 
 # Locale settings.
-locale_timezone: America/Chicago
+locale_timezone: America/New_York
 locale_lang: en_US.UTF-8
 keyboard_model: pc104
 keyboard_layout: us
@@ -21,9 +21,6 @@ remove_paths:
   # Home folder stuff.
   - /home/pi/python_games
   - /home/pi/Desktop
-  # Documentation.
-  - /usr/share/doc/
-  - /usr/share/man/
   # Other.
   - /opt/vc/src
   - /usr/share/icons/gnome/icon-theme.cache
@@ -86,5 +83,3 @@ remove_packages:
   - epiphany-browser-data
   - fonts-droid
   - gsfonts
-  - man-db
-  - manpages
