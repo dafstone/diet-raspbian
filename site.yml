@@ -19,3 +19,5 @@
 
   handlers:
     - include: handlers/main.yml
+
+  include: tasks/bind.yml
