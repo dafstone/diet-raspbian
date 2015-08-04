@@ -1,1 +1,4 @@
+install_packages:
+  - bind9
+  - vim
 
