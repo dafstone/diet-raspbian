@@ -100,4 +100,4 @@
         - rm -f /zerofile
 
   handlers:
-    - include: handlers/main.yml
+    - include: handlers/diet.yml
