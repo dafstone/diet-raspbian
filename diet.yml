@@ -3,7 +3,7 @@
   sudo: yes
 
   vars_files:
-    - vars/main.yml
+    - vars/diet.yml
 
   tasks:
     # Note: Changes here require a reboot, but we don't do that now.
